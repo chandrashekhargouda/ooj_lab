@@ -2,10 +2,10 @@ import java.lang.*;
 import java.util.Scanner;
 
 class Student{
-  private String USN;
   private String name;
-  private int[] score;
+  private String USN;
   private int[] credits;
+  private int[] score;
   private float SGPA;
 
   public Student(){
