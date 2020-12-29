@@ -36,7 +36,7 @@ class Test<X, Y, Z, W> {
 
 class Generics {
   public static void main(String[] args) {
-    Test<Integer, String, Integer, Integer> t = new Test<Integer, String, Integer, Integer>(10, "Vineeth", 11, 12);
+    Test<Integer, String, Integer, Integer> t = new Test<Integer, String, Integer, Integer>(10, "chandrashekhar", 11, 12);
 
     t.print();
   }
